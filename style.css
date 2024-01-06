@@ -1,0 +1,55 @@
+body{
+    background: #181504;
+    background-size:cover;
+    transition:linear 1s;
+    color:white !important;
+    font-family:Roboto;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+h1, h2 {
+    margin-top:100px !important;
+  text-align:center;
+}
+.text{
+    margin:auto;
+}
+.btn {
+    border-radius:50%;
+    background:url('./spinning2.gif');
+    background-size:100% 100%;  
+padding:100px;
+
+}
+.accordion{
+    background-color:black; 
+}
+#mint{
+    color:green;
+    font-size:20px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:black;
+}
+.btn-c {
+position:inline;
+top:15px;
+right:15px;
+background: rgb(17,66,17);
+background: rgb(17,66,17);
+background: linear-gradient(90deg, rgba(17,66,17,1) 0%, rgba(72,230,10,1) 100%); padding:20px;    
+color:white;   
+padding:15px 30px;
+border-radius:10px;
+text-decoration:none;
+border:solid 2px white;
+}
+.btn-c:hover{
+    background: rgb(17,66,17);
+    background: linear-gradient(1200deg, rgba(17,66,17,1) 0%, rgba(72,230,10,1) 100%); 
+}
