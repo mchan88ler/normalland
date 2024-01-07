@@ -1,1 +1,18 @@
-{"name":"Normal Land #60","description":"Gateway to normal land. #60","attributes":[{"trait_type":"BACKGROUND","value":"BG4"},{"trait_type":"PANTS","value":"PANTS3"},{"trait_type":"SHIRT","value":"SHIRT2"},{"trait_type":"GROUND","value":"GROUND LAYER"},{"trait_type":"HAT","value":"HAT4"}],"creators":[{"address":"0x3442a579D72D9E2589D2407dE670E6611eC2944F","share":100}],"collection":{"name":"HUNTERS","family":"HUNTERS"},"symbol":"HUNTER","seller_fee_basis_points":10,"image":"__CID__"}
+{
+  "name": "Normal Land #60",
+  "description": "Gateway to normal land. #60",
+  "attributes": [
+    { "trait_type": "BACKGROUND", "value": "BG4" },
+    { "trait_type": "PANTS", "value": "PANTS3" },
+    { "trait_type": "SHIRT", "value": "SHIRT2" },
+    { "trait_type": "GROUND", "value": "GROUND LAYER" },
+    { "trait_type": "HAT", "value": "HAT4" }
+  ],
+  "creators": [
+    { "address": "0x3442a579D72D9E2589D2407dE670E6611eC2944F", "share": 100 }
+  ],
+  "collection": { "name": "HUNTERS", "family": "HUNTERS" },
+  "symbol": "HUNTER",
+  "seller_fee_basis_points": 10,
+  "image": "https://normalland.cfd/images/60.png"
+}
