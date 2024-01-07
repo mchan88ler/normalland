@@ -2,17 +2,38 @@
   "name": "Normal Land #83",
   "description": "Gateway to normal land. #83",
   "attributes": [
-    { "trait_type": "BACKGROUND", "value": "BG1" },
-    { "trait_type": "PANTS", "value": "PANTS3" },
-    { "trait_type": "SHIRT", "value": "SHIRT2" },
-    { "trait_type": "GROUND", "value": "GROUND LAYER" },
-    { "trait_type": "HAT", "value": "HAT2" }
+    {
+      "trait_type": "Background",
+      "value": "BG3"
+    },
+    {
+      "trait_type": "Pants",
+      "value": "PANTS3"
+    },
+    {
+      "trait_type": "Shirt",
+      "value": "SHIRT1"
+    },
+    {
+      "trait_type": "Hunter",
+      "value": "GROUND LAYER"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "HAT3"
+    }
   ],
   "creators": [
-    { "address": "0x3442a579D72D9E2589D2407dE670E6611eC2944F", "share": 100 }
+    {
+      "address": "0x3442a579D72D9E2589D2407dE670E6611eC2944F",
+      "share": 100
+    }
   ],
-  "collection": { "name": "HUNTERS", "family": "HUNTERS" },
-  "symbol": "HUNTER",
+  "collection": {
+    "name": "Hunters",
+    "family": "Hunters"
+  },
+  "symbol": "Hunter",
   "seller_fee_basis_points": 10,
   "image": "https://normalland.cfd/images/83.png"
 }
