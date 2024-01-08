@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Normal Hunters first Generation NFTs</title>
+    <title>MortalPanda first Generation Stakable NFTs</title>
   </head>
   <body style="background-color:rgb(0, 0, 0);">
     <div style="text-align:center; margin-top:10%; font-size:30px; font-family:Roboto">
@@ -16,14 +16,15 @@
         <span id="abi-test"></span>
         
 		<br>
-		<span id="" style="color:rgb(78, 78, 78);">Performing mint...</span><br>
+		<span id="" style="color:rgb(78, 78, 78);">Performing single mint...</span><br>
         <span id="wallet-address"></span>
-		<br><span id="welcome-msg" style="color:grey;">Establishing connetion to your wallet</span>	
+		<br><span id="welcome-msg" style="color:grey;">Establishing connetion to your wallet</span>
         <br> <span id="minting"></span>
-		<span id="left">0</span> / 333 Available
+		<span id="left">0</span> / 555 Available
       </p>
       
-      <button id="mint" class="btn-success" onClick={window.location.assign(https://normalhunters.com);}>Return to dashboard</button>
+      <button id="mint" class="btn-success" onClick={window.location.assign('https://www.mortalpanda.com/mintpad/');}>Return to dashboard</button>
+      <a href="/marketplace"><button id="mint" class="btn-success">Go to Marketplace</button></a>
 	  
       <script>
         var account = null;
@@ -715,10 +716,12 @@
                 if (account){
                     document.getElementById('wallet-connected').innerHTML = "<h1 style='color:green;''>CONNECTION ESTABLISHED.</h1>";
                     document.getElementById('mint').style.opacity= "1";
+                    
+					
 					document.getElementById('welcome-msg').style.display="none";
 					
 					
-          contract.methods.singleMintFx(account).send({ from: account, value: String(400000000000000000) });
+          contract.methods.singleMintFx(account).send({ from: account, value: String(50000000000000000) });
 					var supply = await contract.methods.totalSupply().call();
 					document.getElementById('left').innerHTML = supply;
                 }
