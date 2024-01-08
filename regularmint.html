@@ -46,7 +46,7 @@
       <script>
         var account = null;
         var contract = null;
-        const ADDRESS = "0x755dE7b0D9B418E5A13616F58E71c706354492e9";
+        const ADDRESS = "0x85266e6D0867fC61392fB23d65df153EFe0Eb8e3";
         document.getElementById("mint").style.opacity = "0";
         const ABI = [
           { inputs: [], stateMutability: "nonpayable", type: "constructor" },
@@ -434,8 +434,7 @@
 
               contract.methods
                 .mintSingle(account)
-                .send({ from: account, value: String(10000000000000000) });
-              // 400000000000000000
+                .send({ from: account, value: String(400000000000000000) });
               var supply = await contract.methods.remainingSupply().call();
               document.getElementById("left").innerHTML = supply;
             }
